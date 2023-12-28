@@ -57,7 +57,7 @@ The `govpp` command will print the usage help for the top-level commands and the
 
 ```
    ______         _    _  _____   _____     govpp v0.8.0
-  |  ____  _____   \  /  |_____] |_____]    user@machine (go1.20 linux/amd64)
+  |  ____  _____   \  /  |_____] |_____]    user@machine (go1.21.5 linux/amd64)
   |_____| [_____]   \/   |       |          Mon Jul  3 12:13:24 CEST 2023
                                           
 Usage:
