@@ -9,7 +9,7 @@ RUN set -eux; \
     rm gotestsum.tar.gz;
 
 # Install Go
-ENV GOLANG_VERSION 1.20
+ENV GOLANG_VERSION 1.21.5
 
 RUN set -eux; \
 	dpkgArch="$(dpkg --print-architecture)"; \
