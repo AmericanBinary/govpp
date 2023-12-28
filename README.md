@@ -4,14 +4,14 @@
 
 ## Why does this version exist?
 Because when I try to use `govpp` and `govpp/extras` in a go.mod file, I run into various errors:
-see: [FDio/govpp/issues/122](https://github.com/FDio/govpp/issues/122#issuecomment-1870711347) 
+see: [FDio/govpp/issues/122](https://github.com/americanbinary/govpp/issues/122#issuecomment-1870711347) 
 If this issue becomes resolved, I would be happy to either help the main FDio/vpp effort in a limited basis or archive this specific project. 
 
 <p align="center">
-	<a href="https://github.com/FDio/govpp/tags"><img src="https://img.shields.io/github/v/tag/fdio/govpp?label=latest&logo=github&sort=semver&color=blue" alt="Latest"></a>
+	<a href="https://github.com/americanbinary/govpp/tags"><img src="https://img.shields.io/github/v/tag/fdio/govpp?label=latest&logo=github&sort=semver&color=blue" alt="Latest"></a>
 	<a href="https://pkg.go.dev/github.com/americanbinary/govpp"><img src="https://pkg.go.dev/badge/github.com/americanbinary/govpp" alt="PkgGoDev"></a>
-	<a href="https://github.com/FDio/govpp/actions/workflows/ci.yaml"><img src="https://github.com/FDio/govpp/actions/workflows/ci.yaml/badge.svg" alt="CI"></a>
-	<a href="https://github.com/FDio/govpp/actions/workflows/test.yaml"><img src="https://github.com/FDio/govpp/actions/workflows/test.yaml/badge.svg" alt="Test"></a>
+	<a href="https://github.com/americanbinary/govpp/actions/workflows/ci.yaml"><img src="https://github.com/americanbinary/govpp/actions/workflows/ci.yaml/badge.svg" alt="CI"></a>
+	<a href="https://github.com/americanbinary/govpp/actions/workflows/test.yaml"><img src="https://github.com/americanbinary/govpp/actions/workflows/test.yaml/badge.svg" alt="Test"></a>
 </p>
 
 The GoVPP repository contains Go client libraries, code bindings generator and other toolings for VPP.
@@ -20,21 +20,21 @@ The GoVPP repository contains Go client libraries, code bindings generator and o
 
 ## Features
 
-* 🆕 CLI app for interacting with VPP instance and development of VPP API (see [GoVPP CLI](https://github.com/FDio/govpp/blob/master/docs/GOVPP_CLI.md))
-* 🆕 Extendable code generator supporting custom plugins (see [Enhanced Generator](https://github.com/FDio/govpp/discussions/94))
-* 🆕 Generated RPC client code that handles all boilerplate (see [RPC Services](https://github.com/FDio/govpp/discussions/58))
-* Simple VPP client API that is not dependent on any VPP API semantics (see [Stream API](https://github.com/FDio/govpp/discussions/43))
-* Generator of Go bindings for VPP API schema (see [Binapi Generator](https://github.com/FDio/govpp/blob/master/docs/USER_GUIDE.md#binary-api-generator))
-* Go client library for VPP binary API & Stats API (see [VPP API calls](https://github.com/FDio/govpp/blob/master/docs/USER_GUIDE.md#vpp-api-calls))
-* Pure Go implementation of VPP binary API protocol (see [socketclient](https://github.com/FDio/govpp/blob/master/adapter/socketclient/socketclient.go))
-* Efficient reader of VPP Stats data from shared memory (see [stats client example](https://github.com/FDio/govpp/tree/master/examples/stats-client))
+* 🆕 CLI app for interacting with VPP instance and development of VPP API (see [GoVPP CLI](https://github.com/americanbinary/govpp/blob/master/docs/GOVPP_CLI.md))
+* 🆕 Extendable code generator supporting custom plugins (see [Enhanced Generator](https://github.com/americanbinary/govpp/discussions/94))
+* 🆕 Generated RPC client code that handles all boilerplate (see [RPC Services](https://github.com/americanbinary/govpp/discussions/58))
+* Simple VPP client API that is not dependent on any VPP API semantics (see [Stream API](https://github.com/americanbinary/govpp/discussions/43))
+* Generator of Go bindings for VPP API schema (see [Binapi Generator](https://github.com/americanbinary/govpp/blob/master/docs/USER_GUIDE.md#binary-api-generator))
+* Go client library for VPP binary API & Stats API (see [VPP API calls](https://github.com/americanbinary/govpp/blob/master/docs/USER_GUIDE.md#vpp-api-calls))
+* Pure Go implementation of VPP binary API protocol (see [socketclient](https://github.com/americanbinary/govpp/blob/master/adapter/socketclient/socketclient.go))
+* Efficient reader of VPP Stats data from shared memory (see [stats client example](https://github.com/americanbinary/govpp/tree/master/examples/stats-client))
 
 ## Quick Start
 
 Here is a code sample of an effortless way for calling the VPP API services by using a generated RPC client.
 
 > **Note**
-> For extensive info about using generated RPC client , see [RPC Services](https://github.com/FDio/govpp/discussions/58)
+> For extensive info about using generated RPC client , see [RPC Services](https://github.com/americanbinary/govpp/discussions/58)
 
 ```go
 // Connect to VPP API socket
@@ -72,11 +72,11 @@ For other documentation refer to [docs](docs) directory.
 
 ## How to contribute?
 
-Anyone insterested in GoVPP development is welcome to join our bi-weekly [📣 GoVPP Community Meeting](https://github.com/FDio/govpp/discussions/46), where we accept inputs from projects using GoVPP and have technical discussions about actual development.
+Anyone insterested in GoVPP development is welcome to join our bi-weekly [📣 GoVPP Community Meeting](https://github.com/americanbinary/govpp/discussions/46), where we accept inputs from projects using GoVPP and have technical discussions about actual development.
 
-- **Contribute code**: submit a [Pull Request](https://github.com/FDio/govpp/pulls)
-- **Report bugs**: open an [Issue](https://github.com/FDio/govpp/issues)
-- **Ask questions**: start a [Discussion](https://github.com/FDio/govpp/discussions)
+- **Contribute code**: submit a [Pull Request](https://github.com/americanbinary/govpp/pulls)
+- **Report bugs**: open an [Issue](https://github.com/americanbinary/govpp/issues)
+- **Ask questions**: start a [Discussion](https://github.com/americanbinary/govpp/discussions)
 
 ## Repository Structure
 

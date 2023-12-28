@@ -184,7 +184,7 @@ if e.State != core.Connected {
 
 Each binary API message in the Go-generated API is a data structure. The caller can send API messages either using
 a `Channel` (legacy method) or a `Stream`. 
-In-depth discussion about differences between `Channel` and `Stream` can be found https://github.com/FDio/govpp/discussions/43.
+In-depth discussion about differences between `Channel` and `Stream` can be found https://github.com/americanbinary/govpp/discussions/43.
 
 Messages can be requests, replies or events. The request might expect just one response (request), or more than one
 response (multirequest). It is possible to determine the message type out of its name.

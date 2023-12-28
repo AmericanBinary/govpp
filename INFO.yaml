@@ -11,7 +11,7 @@ project_lead: &govpp_ptl
 primary_contact: *govpp_ptl
 issue_tracking:
   type: 'github'
-  url: 'https://github.com/FDio/govpp/issues'
+  url: 'https://github.com/americanbinary/govpp/issues'
 mailing_list:
   type: 'groups.io'
   url: 'https://lists.fd.io/g/govpp-dev'

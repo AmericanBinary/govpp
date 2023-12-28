@@ -22,7 +22,7 @@ go install github.com/americanbinary/govpp/cmd/binapi-generator@master
 
 ```sh
 # Clone repository
-git clone https://github.com/FDio/govpp
+git clone https://github.com/americanbinary/govpp
 cd govpp
 
 # Install binapi-generator

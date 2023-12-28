@@ -16,7 +16,7 @@ The PATCH releases should be released whenever it is required to publish a fix t
 
 ## Release Tracking
 
-Each release has its own [milestone](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/about-milestones) created with a due date of the expected release date. List of milestones can be found here: https://github.com/FDio/govpp/milestones
+Each release has its own [milestone](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/about-milestones) created with a due date of the expected release date. List of milestones can be found here: https://github.com/americanbinary/govpp/milestones
 
 Every issue/PR that shoukd be part of a specific release should have milestone set.
 
@@ -26,11 +26,11 @@ Every issue/PR that shoukd be part of a specific release should have milestone s
   - Check if all issues/PRs that are part of the release milestone are closed
   - Check if the generated `binapi` is compatible with the lastest VPP release
 2. Prepare the release in a PR with the following changes:
-  - Update [CHANGELOG.md](https://github.com/FDio/govpp/blob/master/CHANGELOG.md) with the list of changes for new version
-  - Update version in [version](https://github.com/FDio/govpp/blob/master/version/version.go) package to `v0.X.0` without any suffix (remove `-dev`)
+  - Update [CHANGELOG.md](https://github.com/americanbinary/govpp/blob/master/CHANGELOG.md) with the list of changes for new version
+  - Update version in [version](https://github.com/americanbinary/govpp/blob/master/version/version.go) package to `v0.X.0` without any suffix (remove `-dev`)
 3. Once PR merges to master, tag it with `v0.X.0` using annotated, signed tag & push the tag to repository
   ```sh
   git tag --sign --annotate --message "govpp v0.X.0" v0.X.0
   ```
 6. After the release tag is pushed, begin development of the next release using the following steps:
-  - Update version in [version](https://github.com/FDio/govpp/blob/master/version/version.go) package to `v0.X+1.0-dev`
+  - Update version in [version](https://github.com/americanbinary/govpp/blob/master/version/version.go) package to `v0.X+1.0-dev`
